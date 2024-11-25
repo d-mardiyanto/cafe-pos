@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* === Plugin styles === */
+
+@use "~react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
+@use "~nouislider/distribute/nouislider.min.css";
+@use '~react-bootstrap-typeahead/css/Typeahead.css';
+@use '~react-bootstrap-typeahead/css/Typeahead-bs4.css';
+@use '~react-datepicker/dist/react-datepicker.css';
+
+
+@use "~bootstrap/scss/functions";
+@use "~bootstrap/scss/variables";
+
+@use "../assets/styles/variables";
+@use "~compass-mixins/lib/compass";
+@use "~compass-mixins/lib/animate";
+@use "~bootstrap/scss/bootstrap";
+@use "../assets/styles/fonts";
+@use "../assets/styles/functions";
+
+/* === Icon fonts === */
+@use "~@mdi/font/scss/materialdesignicons";
+
+
+/* === Template mixins === */
+@use "../assets/styles/mixins/animation";
+@use "../assets/styles/mixins/badges";
+@use "../assets/styles/mixins/buttons";
+@use "../assets/styles/mixins/misc";
+@use "../assets/styles/mixins/color-functions";
+@use "../assets/styles/mixins/cards";
+@use "../assets/styles/mixins/blockqoute";
+@use "../assets/styles/mixins/popovers";
+@use "../assets/styles/mixins/tooltips";
+@use "../assets/styles/mixins/no-ui-slider";
+
+
+/* === Core Styles === */
+@use "../assets/styles/background";
+@use "../assets/styles/typography";
+@use "../assets/styles/reset";
+@use "../assets/styles/responsive";
+@use "../assets/styles/misc";
+@use "../assets/styles/utilities";
+@use "../assets/styles/demo";
+@use "../assets/styles/spinner";
+@use "../assets/styles/dashboard";
+
+/* === Components === */
+
+@use "../assets/styles/components/widgets";
+@use "../assets/styles/components/forms";
+@use "../assets/styles/components/checkbox-radio";
+@use "../assets/styles/components/icons";
+@use "../assets/styles/components/tables";
+@use "../assets/styles/components/accordions";
+@use "../assets/styles/components/buttons";
+@use "../assets/styles/components/breadcrumbs";
+@use "../assets/styles/components/badges";
+@use "../assets/styles/components/cards";
+@use "../assets/styles/components/preview";
+@use "../assets/styles/components/tooltips";
+@use "../assets/styles/components/user-profile";
+@use "../assets/styles/components/popovers";
+@use "../assets/styles/components/lists";
+@use "../assets/styles/components/bootstrap-progress";
+@use "../assets/styles/components/bootstrap-alerts";
+@use "../assets/styles/components/tabs";
+@use "../assets/styles/components/dropdowns";
+@use "../assets/styles/components/pagination";
+@use "../assets/styles/components/loaders/loaders";
+@use "../assets/styles/components/timeline";
+@use "../assets/styles/components/portfolio";
+@use "../assets/styles/components/pricing-table";
+@use "../assets/styles/components/email/mail-list-container";
+@use "../assets/styles/components/email/mail-sidebar";
+@use "../assets/styles/components/email/message-content";
+@use "../assets/styles/components/todo-list";
+@use "../assets/styles/components/spinner";
+@use "../assets/styles/components/tickets";
+@use "../assets/styles/components/project-list";
+@use "../assets/styles/components/product-tile";
+@use "../assets/styles/components/user-listing";
+@use "../assets/styles/components/landing";
+@use "../assets/styles/components/chats";
+@use "../assets/styles/components/kanban";
+@use "../assets/styles/components/react-table";
+
+@use "../assets/styles/components/landing-screens/auth";
+
+/* === Plugin Overrides === */
+@use "../assets/styles/components/plugin-overrides/contex-menu";
+@use "../assets/styles/components/plugin-overrides/no-ui-slider";
+@use "../assets/styles/components/plugin-overrides/slick-carousel";
+@use "../assets/styles/components/plugin-overrides/rating";
+@use "../assets/styles/components/plugin-overrides/date-picker";
+@use "../assets/styles/components/plugin-overrides/wizard";
+@use "../assets/styles/components/plugin-overrides/react-bootstrap-table";
+@use "../assets/styles/components/plugin-overrides/sweet-alert";
+@use "../assets/styles/components/plugin-overrides/full-calendar";
+@use "../assets/styles/components/plugin-overrides/react-photo-gallery";
+@use "../assets/styles/components/plugin-overrides/react-tag-autocomplete";
+@use "../assets/styles/components/plugin-overrides/jquery-jvectormap";
+@use "../assets/styles/components/plugin-overrides/react-table";
+
+/* === Layout === */
+@use "../assets/styles/navbar";
+@use "../assets/styles/sidebar";
+@use "../assets/styles/footer";
+@use "../assets/styles/layout";
+@use "../assets/styles/settings-panel";
